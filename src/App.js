@@ -50,6 +50,7 @@ export default function App() {
             style={{
               cursor: "pointer",
               backgroundColor: "purple",
+              color:"white",
               borderRadius: "0.5rem",
               padding: "0.5rem  1rem",
               border: "1px solid black",
