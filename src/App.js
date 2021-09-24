@@ -2,13 +2,13 @@ import React from "react";
 import "./styles.css";
 import { useState } from "react";
 
-const bookDB = {
+const BookDataBase = {
   javascript: [
     { name: "Eloquent JavaScript", rating: "4/5" },
     { name: "You Don't Know JS", rating: "3.5/5" }
   ],
 
-  fiction: [
+  Fiction: [
     {
       name: "Shiva Trilogy",
       rating: "5/5"
@@ -31,20 +31,20 @@ const bookDB = {
 };
 
 export default function App() {
-  const [selectedGenre, setGenre] = useState("business");
+  const [Genre, setGenre] = useState("Fiction");
   function genreClickHandler(genre) {
     setGenre(genre);
   }
   return (
     <div className="App">
-      <h1> 📚 goodbooks </h1>
+      <h1> 📚 Goodbooks </h1>
       <p style={{ fontSize: "smaller" }}>
         {" "}
         Checkout my favorite books. Select a genre to get started{" "}
       </p>
 
       <div>
-        {Object.keys(bookDB).map((genre) => (
+        {Object.keys(BookDataBase).map((genre) => (
           <button
             onClick={() => genreClickHandler(genre)}
             style={{
@@ -63,7 +63,7 @@ export default function App() {
       <hr />
       <div style={{ textAlign: "left" }}>
         <ul style={{ paddingInlineStart: "0" }}>
-          {bookDB[selectedGenre].map((book) => (
+          {BookDataBase[Genre].map((book) => (
             <li
               key={book.name}
               style={{
