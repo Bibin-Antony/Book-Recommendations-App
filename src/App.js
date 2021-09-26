@@ -11,7 +11,7 @@ const BookDataBase = {
     { name: "You Don't Know JS",
     discription : "Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes.",
     Autor :"Kyle Simpson",
-    rating: "3.5/5" }
+    rating: "3.5/5" },
     { name: "Eloquent JavaScript", 
     discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
     Autor :"Marijn Haverbeke",
@@ -40,14 +40,24 @@ const BookDataBase = {
   ],
   business: [
     {
-      name: "Never Split the Difference",
-      rating: "3.5/5"
+      name: "Pyjama Profit",
+      discription : "Pyjama Profit is a guide for millennials to get started with a self-sustained online freelance practice, while developing their skills needed to succeed. ",
+      Autor : "Varun Maya",
+      rating: "4.5/5"
     },
     {
-      name: "Loonshots",
-      name : ""
-      rating: "5/5"
+      name: "Crushing It",
+      discription : "Four-time New York Times bestselling author Gary Vaynerchuk offers new lessons and inspiration drawn from the experiences of dozens of influencers and entrepreneurs who rejected the predictable corporate",
+      Autor : "Gary Vee",
+      rating: "4.9/5"
+    },
+    {
+      name: "The 4-Hour Workweek",
+      discription : "The 4-Hour Workweek: Escape 9–5, Live Anywhere, and Join the New Rich is a self-help book by Timothy Ferriss, an American writer, educational activist, and entrepreneur.",
+      Autor : "Tim Ferriss",  
+      rating: "4.1/5"
     }
+
   ]
 };
 
