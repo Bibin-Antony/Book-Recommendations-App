@@ -6,15 +6,15 @@ const BookDataBase = {
   Programming: [
     { name: "Eloquent JavaScript", 
     discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
-    autor :"Marijn Haverbeke",
+    
     rating: "4/5" },
     { name: "You Don't Know JS",
     discription : "Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes.",
-    autor :"Kyle Simpson",
+    
     rating: "3.5/5" },
     { name: "Eloquent JavaScript", 
     discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
-    autor :"Marijn Haverbeke",
+    
     rating: "4/5" }
   ],
 
