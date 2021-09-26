@@ -6,15 +6,15 @@ const BookDataBase = {
   Programming: [
     { name: "Eloquent JavaScript", 
     discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
-    
+    autor : "Marijn Haverbeke",
     rating: "4/5" },
     { name: "You Don't Know JS",
     discription : "Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes.",
-    
+    autor : "Kyle Simpson",
     rating: "3.5/5" },
-    { name: "Eloquent JavaScript", 
-    discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
-    
+    { name: "Automate the Boring Stuff with Python", 
+    discription : "you'll learn how to use Python to write programs that do in minutes what would take you hours to do by hand ",
+    autor : "Al Sweigart",
     rating: "4/5" }
   ],
 
@@ -110,6 +110,7 @@ export default function App() {
               {" "}
               <div style={{ fontSize: "larger" }}> {book.name} </div>
               <div style={{ fontSize: "smaller" }}> {book.discription} </div>
+              <div style={{ fontSize: "smaller" }}> {book.autor} </div>
               <div style={{ fontSize: "smaller" }}> {book.rating} </div>
               
             </li>
