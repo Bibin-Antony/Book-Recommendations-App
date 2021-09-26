@@ -3,18 +3,38 @@ import "./styles.css";
 import { useState } from "react";
 
 const BookDataBase = {
-  javascript: [
-    { name: "Eloquent JavaScript", rating: "4/5" },
-    { name: "You Don't Know JS", rating: "3.5/5" }
+  Programming: [
+    { name: "Eloquent JavaScript", 
+    discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
+    Autor :"Marijn Haverbeke",
+    rating: "4/5" },
+    { name: "You Don't Know JS",
+    discription : "Are you looking for a better way to deeply learn the fundamentals of JavaScript? Look no further!The foundation of all programs is the organization of its variables and functions into different nested scopes.",
+    Autor :"Kyle Simpson",
+    rating: "3.5/5" }
+    { name: "Eloquent JavaScript", 
+    discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
+    Autor :"Marijn Haverbeke",
+    rating: "4/5" },
   ],
 
   Fiction: [
     {
-      name: "Shiva Trilogy",
-      rating: "5/5"
+      name: "The Complete Novel Of Sherlock Homes",
+      discription : "The Complete Sherlock Holmes is the collection of all 56 stories and 4 novels starring the genius detective Sherlock Holmes and his loyal sidekick ",
+      Autor : "Arthur Conan Doyle",
+      rating: "3.5/5"
     },
     {
-      name: "Harry Potter and the Sorcerer's Stone",
+      name: "The Adventures Of Sherlock Homes",
+      discription : "The Adventures of Sherlock Holmes is a collection of twelve short stories",
+      Autor : "Arthur Conan Doyle",  
+      rating: "4.5/5"
+    },
+    {
+      name: "The Alchemist",
+      discription : "The Alchemist is a novel by Brazilian author Paulo Coelho that was first published in 1988. Originally written in Portuguese, it became a widely translated international bestseller.",
+      Autor : "Paulo Coelho",  
       rating: "4.5/5"
     }
   ],
@@ -25,6 +45,7 @@ const BookDataBase = {
     },
     {
       name: "Loonshots",
+      name : ""
       rating: "5/5"
     }
   ]
@@ -78,6 +99,8 @@ export default function App() {
             >
               {" "}
               <div style={{ fontSize: "larger" }}> {book.name} </div>
+              <div style={{ fontSize: "smaller" }}> {book.discription} </div>
+              <div style={{ fontSize: "smaller" }}> {book.Autor} </div>
               <div style={{ fontSize: "smaller" }}> {book.rating} </div>
             </li>
           ))}
