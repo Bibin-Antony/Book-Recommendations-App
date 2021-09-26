@@ -15,7 +15,7 @@ const BookDataBase = {
     { name: "Eloquent JavaScript", 
     discription : "Completely revised and updated, this best-selling introduction to programming in JavaScript focuses on writing real applications.",
     Autor :"Marijn Haverbeke",
-    rating: "4/5" },
+    rating: "4/5" }
   ],
 
   Fiction: [
